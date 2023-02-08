@@ -1,0 +1,131 @@
+.latest-match-container {
+  width: 100%;
+  margin: 20px 0px;
+}
+
+.latest-match-heading {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Bree Serif';
+  margin-bottom: 8px;
+}
+
+.latest-match-card-container {
+  background-color: #0f172a;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .latest-match-card-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 32px;
+  }
+}
+
+.latest-match-details-logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 22px 22px 0px;
+}
+@media screen and (min-width: 768px) {
+  .latest-match-details-logo-container {
+    width: 65%;
+    padding: 0px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .latest-match-details-logo-container {
+    width: 65%;
+  }
+}
+.latest-match-text-details-1 {
+  width: 70%;
+}
+@media screen and (min-width: 768px) {
+  .latest-match-text-details-1 {
+    width: 48%;
+    align-self: flex-start;
+  }
+}
+.latest-match-team-name {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Bree Serif';
+  margin: 0px;
+}
+.match-date {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'Bree Serif';
+}
+.match-details {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: 'Bree Serif';
+}
+.latest-match-team-logo {
+  max-height: 120px;
+}
+@media screen and (min-width: 768px) {
+  .latest-match-team-name {
+    font-size: 30px;
+  }
+  .match-date {
+    font-size: 24px;
+  }
+  .match-details {
+    font-size: 16px;
+  }
+  .latest-match-team-logo {
+    max-width: 200px;
+    max-height: 200px;
+  }
+}
+
+.separator {
+  border: 1px solid #475569;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .separator {
+    display: none;
+  }
+}
+
+.latest-match-text-details-2 {
+  width: 100%;
+  padding: 0px 22px 10px;
+}
+@media screen and (min-width: 768px) {
+  .latest-match-text-details-2 {
+    text-align: right;
+    width: 33%;
+    padding: 0px;
+  }
+}
+
+.details-label {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Bree Serif';
+  margin: 5px 0px;
+}
+.details-value {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: 'Bree Serif';
+}
+
+@media screen and (min-width: 768px) {
+  .details-label {
+    font-size: 18px;
+  }
+  .details-value {
+    font-size: 14px;
+  }
+}

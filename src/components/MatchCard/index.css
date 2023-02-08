@@ -1,0 +1,65 @@
+.match-card-container {
+  width: 48%;
+  padding: 15px 20px;
+  border-radius: 15px;
+  background-color: #0f172a;
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .match-card-container {
+    width: 31.5%;
+    padding: 25px 30px;
+    margin-bottom: 20px;
+  }
+}
+
+.competing-team-logo {
+  height: 60px;
+  max-width: 80px;
+}
+@media screen and (min-width: 768px) {
+  .competing-team-logo {
+    max-width: 100px;
+    height: 80px;
+  }
+}
+
+.competing-team-name {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Bree Serif';
+  flex-grow: 1;
+}
+.match-result {
+  color: #ffffff;
+  font-size: 10px;
+  font-family: 'Bree Serif';
+}
+
+.match-status {
+  font-size: 14px;
+  font-family: 'Bree Serif';
+}
+
+@media screen and (min-width: 768px) {
+  .competing-team-name {
+    font-size: 24px;
+  }
+  .match-result {
+    font-size: 16px;
+  }
+
+  .match-status {
+    font-size: 24px;
+  }
+}
+.won {
+  color: #18ed66;
+}
+.lost {
+  color: #e31a1a;
+}

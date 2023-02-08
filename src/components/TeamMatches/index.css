@@ -1,0 +1,55 @@
+.rcb {
+  background-image: linear-gradient(to top, #1e293b, #a4261d);
+}
+.kkr {
+  background-image: linear-gradient(to top, #1e293b, #5755a7);
+}
+.kxp {
+  background-image: linear-gradient(to top, #1e293b, #d91c1f);
+}
+.csk {
+  background-image: linear-gradient(to top, #1e293b, #f7db00);
+}
+.rr {
+  background-image: linear-gradient(to top, #1e293b, #da237b);
+}
+.mi {
+  background-image: linear-gradient(to top, #1e293b, #13418b);
+}
+.sh {
+  background-image: linear-gradient(to top, #1e293b, #f26d22);
+}
+.dc {
+  background-image: linear-gradient(to top, #1e293b, #4f5db0);
+}
+
+.team-matches-route-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0px 10px;
+}
+
+.team-matches-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 860px;
+  width: 90%;
+}
+
+.banner-image {
+  width: 100%;
+}
+
+.recent-matches-container {
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px;
+  text-align: center;
+}
